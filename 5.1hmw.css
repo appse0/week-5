@@ -1,0 +1,53 @@
+body {
+    background-color: azure;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 582px 582px 582px;
+    grid-template-columns: 380px 380px 380px;
+    grid-gap: 20px;
+
+}
+.box {
+    background-color: #fff;
+    border: 2px solid #C2C6D00F;
+    border-radius: 10px;
+
+}
+.header {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    color: #2E363E;
+}
+.subheader {
+    margin-left: 40px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2E363E;
+}
+.price {
+    margin-left: 40px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #434B53;
+}
+button {
+    background-color: #FED84C;
+    color: #2E363E;
+    margin-left: 40px;
+    padding: 20px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    border: none;
+    border-radius: 10px;
+}
+
