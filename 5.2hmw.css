@@ -1,0 +1,799 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F6F5;
+}
+
+.logo {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    background-color: #E1EDE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.production {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 20px;
+
+}
+
+.titlep {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.green-text {
+    color: #5a8b6e;
+}
+
+.subtitlep {
+    margin-bottom: 40px;
+    color: #819e8d;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.production_button {
+    border: 1px solid #598D66;
+    padding: 14.5px 29px;
+    background-color: #F4F6F5;
+}
+
+.reproduction {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titler {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.reproduction_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.country_btn {
+    width: 118px;
+    height: 41px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #D4E8D9;
+}
+
+.country_btn:active {
+    background-color: #376B44;
+    color: #FFFFFF
+}
+
+.card {
+    background-color: #E1EDE6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+
+.author {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #86928B;
+}
+
+.titlec {
+    color: #2C2D35;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.subtitlec {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.pricec {
+    color: #598D66;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.card_btn {
+    padding: 14.5px 81.5px;
+    color: #598D66;
+    background-color: transparent;
+    border: 1px solid #598D66;
+}
+
+.collection {
+    background-image: url(./photos/Rectangle.png);
+}
+
+.titlen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #F4F6F5;
+    padding: 50px 15px 20px 15px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    padding: 20px 15px 30px 15px;
+}
+
+.promo_btn {
+    margin: 0px 15px 50px 15px;
+    padding: 14.5px 83.5px;
+    background-color: #EEDB6D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    border: none;
+}
+
+.image_paint {
+    padding: 60px 15px 30px 15px;
+}
+
+.team {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titlet {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+
+}
+
+.subtitlet {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.team_members {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 94px;
+}
+
+footer {
+    display: grid;
+    grid-template-areas: "logo logo"
+        "phone reproduction"
+        "new info"
+        "line line"
+        "platforms-overall platforms-overall";
+
+    column-gap: 40px;
+    row-gap: 20px;
+
+
+    background-color: #E1EDE6;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-photo {
+    grid-area: logo;
+
+}
+
+.footer_number {
+    grid-area: phone;
+}
+
+.footer_reproduction {
+    grid-area: reproduction;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.footer_new {
+    grid-area: new;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer_info {
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.footer_line_m {
+    grid-area: line;
+
+}
+
+.platforms-overall {
+    grid-area: platforms-overall;
+}
+
+.last_logo {
+    grid-area: last-logo;
+    justify-self: center;
+
+
+
+}
+
+
+
+.titlei {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #86928B;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 33px;
+}
+
+.platforms-overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.menu-text-item {
+    display: none;
+}
+
+.line {
+    display: none;
+}
+
+.bird-img {
+    display: none;
+}
+
+.footer_line_t {
+    display: none;
+}
+
+.last_logo_t {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .logo {
+        background-color: #E1EDE6;
+
+    }
+
+    .list-logo {
+        display: none;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        padding: 16px 33px;
+        gap: 60px;
+
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+    }
+
+    .menu-text-item {
+        display: flex;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        color: #2C2D35;
+    }
+
+    .line {
+        display: flex;
+    }
+
+    .bird-img {
+        display: flex;
+    }
+
+    .production {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .production-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reproduction {
+        padding-left: 33px;
+        padding-right: 33px;
+        box-sizing: border-box;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 240px;
+        box-sizing: border-box;
+    }
+
+    .pic {
+        width: 200px;
+        height: 250px;
+    }
+
+    .card_btn {
+        padding: 14.5px 56.5px;
+    }
+
+    .image_paint {
+        width: 375px;
+        height: 370px;
+    }
+
+    .titlet {
+        font-size: 30px;
+
+    }
+
+    .subtitlet {
+        font-size: 18px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: "logo logo phone"
+            "reproduction new info"
+            "line line line"
+            "platforms-overall platforms-overall platforms-overall";
+
+        column-gap: 40px;
+        row-gap: 20px;
+        justify-content: space-between;
+
+
+    }
+
+    .logo-photo {
+        grid-area: logo;
+
+    }
+
+    .footer_number {
+        grid-area: phone;
+    }
+
+    .footer_reproduction {
+        grid-area: reproduction;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .footer_new {
+        grid-area: new;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer_info {
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+    }
+
+    .footer_line_t {
+        grid-area: line;
+        display: flex;
+
+    }
+
+    .platforms-overall {
+        grid-area: platforms-overall;
+    }
+
+    .last_logo {
+        grid-area: last-logo;
+        justify-self: center;
+    }
+
+    .footer_line_m {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .line {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-areas: "logo-h menu-h logo-basket";
+        justify-content: space-between;
+        background-color: #E1EDE6;
+    }
+
+    .logo {
+        grid-area: logo-h;
+        width: 143px;
+        height: 35px;
+        padding: 33px 0px 32px 39px;
+    }
+
+    .menu {
+        grid-area: menu-h;
+    }
+
+    .logo2 {
+        grid-area: logo-basket;
+        /*?????*/
+
+    }
+
+    .bird-img {
+        width: 330px;
+        height: 380px;
+    }
+
+    .titlep {
+        font-size: 40px;
+    }
+
+    .subtitlep {
+        font-size: 18px;
+    }
+
+    .production_button {
+        font-size: 20px;
+        padding: 18.5px 51.5px;
+        line-height: 100%;
+        width: fit-content;
+    }
+
+    .reproduction {
+        display: grid;
+        grid-template-areas: "title rep-bar"
+            "cards cards";
+    }
+
+    .cards {
+        grid-area: cards;
+    }
+
+    .titler {
+        grid-area: title;
+    }
+
+    .reproduction_bar {
+        grid-area: rep-bar;
+    }
+
+    .pic {
+        width: 290px;
+        height: 422px;
+    }
+
+    .card {
+        width: 330px;
+        height: 730px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .author {
+        font-size: 18px;
+    }
+
+    .titlec {
+        font-size: 30px;
+    }
+
+    .subtitlec {
+        font-size: 18px;
+    }
+
+    .card_btn {
+        font-size: 20px;
+        padding: 21px 96.5px;
+    }
+
+    .pricec {
+        font-size: 24px;
+    }
+
+    .collection {
+        background-image: url(./photos/pic_background.png);
+    }
+
+    .titlen2 {
+        font-size: 30px;
+    }
+
+    .text {
+        font-family: 18px;
+    }
+
+    .promo_btn {
+        padding: 18.5px 36.5px;
+    }
+
+    .image_paint {
+        width: 510px;
+        height: 504px;
+    }
+
+    .titlet {
+        font-size: 30px;
+    }
+
+    .subtitlet {
+        font-size: 18px;
+    }
+
+    .last_logo {
+        display: none;
+    }
+
+    .last_logo_t {
+        display: flex;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: "logo logo logo phone"
+            "reproduction new info platforms-overall";
+        justify-content: space-between;
+
+
+    }
+
+    .logo_photo {
+        grid-area: logo;
+    }
+
+    .footer_number {
+        grid-area: phone;
+    }
+
+    .footer_new {
+        grid-area: new;
+    }
+
+    .footer_reproduction {
+        grid-area: reproduction;
+
+    }
+
+    .footer_info {
+        grid-area: info;
+
+    }
+
+    .platforms-overall {
+        grid-area: platforms-overall;
+    }
+
+    .footer_line_t {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-text-item {
+        font-size: 20px;
+    }
+
+    .bird-img {
+        width: 540px;
+        height: 621px;
+    }
+
+    .titlep {
+        font-size: 60px;
+    }
+
+    .subtitlep {
+        font-size: 18px;
+    }
+
+    .production-text {
+        padding-right: 145px;
+        padding-top: 165px;
+    }
+
+    .pic {
+        width: 310px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .collection {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./photos/Rectangle\ \(2\).png);
+        width: auto;
+        height: 574px;
+        padding-top: 70px;
+        padding-left: 165px;
+
+    }
+
+    .titlen2 {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .text {
+        font-family: 18px;
+        line-height: 150%;
+        width: 540px;
+        height: 209px;
+        font-weight: 500;
+    }
+
+    .titlen {
+        width: 521px;
+        height: 80px;
+    }
+
+    .team {
+        display: grid;
+        grid-template-areas: "paint title"
+            "paint subtitle"
+            "paint members";
+        align-items: end;
+        padding: 70px 165px;
+    }
+
+    .image_paint {
+        grid-area: paint;
+    }
+
+    .titlet {
+        grid-area: title;
+        font-size: 40px;
+    }
+
+    .subtitlet {
+        grid-area: subtitle;
+        font-size: 20px;
+    }
+
+    .team_members {
+        grid-area: members;
+        width: 300px;
+        height: 80px;
+    }
+
+    .image_paint {
+        width: 445px;
+        height: 440px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: "logo reproduction new info platforms-overall"
+            "phone reproduction new info platforms-overall";
+        justify-content: space-evenly;
+
+
+    }
+
+    .logo_photo {
+        grid-area: logo;
+    }
+
+    .footer_number {
+        grid-area: phone;
+    }
+
+    .footer_new {
+        grid-area: new;
+    }
+
+    .footer_reproduction {
+        grid-area: reproduction;
+
+    }
+
+    .footer_info {
+        grid-area: info;
+
+    }
+
+    .platforms-overall {
+        grid-area: platforms-overall;
+    }
+    
+
+}
